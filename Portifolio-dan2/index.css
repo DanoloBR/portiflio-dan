@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: rgba(255, 255, 255, 0.692);
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' stroke-opacity='0.46'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    font-family: Arial;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+ul{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items:center;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    line-height: 1.6;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.904);
+    background-color: grey;
+}
+
+#text{
+    padding: 1.4rem;
+    border-radius: 0.9rem;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.2);
+    background-color: grey;
+    font-size: large;
+    max-width: 60rem;
+    white-space: nowrap;
+
+}
+a{
+    color:rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(97, 72, 63);
+}
+header img{
+    width: 6rem;
+    border-radius: 80%;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.39);
+}
+
+.Meio{
+    text-align: center;
+}
+
+h1{
+    color: rgb(221, 172, 155);
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+
+footer img{
+    width: 3rem;
+    height: 3rem;
+}
+
+footer{
+    height: 9rem;
+    display: flex;
+    width: 62.5%;
+    max-width: 400px;
+    background-color: grey;
+    margin: auto;
+    border-radius: 20px;
+}
+footer a{
+    margin: 2rem;
+    text-align: center;  
+}
+footer a:hover{
+    color: rgb(97, 72, 63);
+}
+footer p{
+    margin-top: 2px;
+}
+
+h1, h2, h3, a, p {
+    text-shadow: 2px 2px 5px rgba(247, 244, 244, 0.144);
+}
+
+ol {
+    text-align: center;
+}
+
+.gap{
+    margin: 5rem;
+    display: grid;
+    gap: 60px;
+}
